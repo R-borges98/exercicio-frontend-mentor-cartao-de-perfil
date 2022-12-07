@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:ital@1&display=swap');
+
+
+
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+
+.nome{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+
+.card{
+    background: #fff;
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.imagem-usuario img{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nome{
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.localizacao{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 35px;
+    color: hsl(227, 10%, 46%);
+    font-size: 15px;
+}
+
+.cor-do-numero-usuario{
+    color: hsl(227, 10%, 46%);
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    list-style: none;
+
+}
+
+/* Coloca uma linha para separar sessões no card */
+hr{
+    margin-top: 70px;
+    width: 328px;
+}
+
+.numero{
+    font-size: 20px;
+}
+.infor2{  
+    color: hsl(227, 10%, 46%);
+}
+
+
+
